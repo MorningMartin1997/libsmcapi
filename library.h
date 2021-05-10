@@ -1,0 +1,6 @@
+#ifndef LIBSMCAPI_LIBRARY_H
+#define LIBSMCAPI_LIBRARY_H
+
+int hello();
+
+#endif //LIBSMCAPI_LIBRARY_H
