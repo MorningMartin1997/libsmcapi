@@ -1,8 +1,9 @@
 #include "library.h"
 
 #include <iostream>
+using std::string;
+using std::cerr;
 
-int hello() {
-    std::cout << "Hello, World!" << std::endl;
+int hello(){
     return 0;
 }

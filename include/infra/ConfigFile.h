@@ -15,7 +15,7 @@ protected:
     std::map<std::string, std::string> _content_;
 
 public:
-    ConfigFile(std::string const &configFile);
+    explicit ConfigFile(std::string const &configFile);
     std::string const &Value(std::string const &section, std::string const &entry) const;
 };
 #endif //LIBSMCAPI_CONFIGFILE_H
